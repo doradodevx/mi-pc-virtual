@@ -196,6 +196,8 @@ dialog.lightbox::backdrop { background: rgba(245, 245, 247, .96); }
 .num.main { background: var(--navy); color: var(--white); }
 .branch b { font-weight: 600; font-size: 19px; letter-spacing: 0.012em; }
 .branch span { display: block; color: var(--slate); }
+.branch .num { display: grid; place-items: center; line-height: 1; color: var(--ink); }
+.branch .num.main { color: var(--white); }
 
 /* Preguntas */
 .faq details { border-top: 1px solid var(--hair); }
@@ -433,8 +435,7 @@ footer.band { padding-block: 40px 56px; background: var(--mist); }
 
   <section id="preguntas" class="band mist" aria-labelledby="t-preguntas">
     <div class="wrap">
-      <p class="kicker">Preguntas frecuentes</p>
-      <h2 id="t-preguntas" class="heading" style="margin:10px 0 32px">Resolvemos tus dudas.</h2>
+      <h2 id="t-preguntas" class="heading" style="margin:0 0 32px">Preguntas frecuentes</h2>
       <div class="faq">
         <details><summary>¿Qué venden en Mi PC virtual?</summary><p>Laptops, PC de escritorio (torres, monitores y equipos completos) y accesorios como teclados, mouse y audífonos.</p></details>
         <details><summary>¿Cuál es su horario?</summary><p>Atendemos de 9:00 am a 6:00 pm en nuestras tres sucursales.</p></details>
