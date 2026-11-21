@@ -23,7 +23,16 @@ El inicio de sesión y el formulario de contacto son de demostración: no hay se
 
 ## Multimedia
 
-Todas las imágenes, videos, audio y textos son de composición propia.
+El logo, las ilustraciones, los videos, el audio y los textos son de composición propia. Las fotos de la galería son de Wikimedia Commons, con licencia libre:
+
+| Foto | Autor | Licencia |
+| --- | --- | --- |
+| [Laptops](https://commons.wikimedia.org/wiki/File:Woman_working_on_her_laptop._External_hard_drive_plugged_into_the_laptop.jpg) | Shixart1985 | CC BY 2.0 |
+| [PC de escritorio](https://commons.wikimedia.org/wiki/File:RGB_desktop_computer_setup_with_keyboard_and_monitor.jpg) | SankalpSasnur | CC0 |
+| [Accesorios](https://commons.wikimedia.org/wiki/File:Computer_keyboard,_smart_card_reader,_and_mouse_on_a_wooden_desk.jpg) | Shixart1985 | CC BY 2.0 |
+| [Reparación de equipos](https://commons.wikimedia.org/wiki/File:Electronic_technician_at_work_3.jpg) | 18bit | CC BY-SA 4.0 |
+| [Mantenimiento y armado](https://commons.wikimedia.org/wiki/File:Replacing_hardware_160210-F-KR223-021.jpg) | Airman 1st Class Jordyn Fetter | Dominio público |
+| [Instalación de programas](https://commons.wikimedia.org/wiki/File:Woman_working_on_a_laptop_in_the_kitchen._Top_view.jpg) | Shixart1985 | CC BY 2.0 |
 
 | Carpeta | Contenido |
 | --- | --- |

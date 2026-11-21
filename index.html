@@ -180,6 +180,7 @@ p { margin: 0; }
 .gallery button:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
 .gallery img { width: 100%; aspect-ratio: 5 / 3; object-fit: cover; border-radius: 16px; transition: transform .25s ease; }
 .gallery button:hover img { transform: scale(1.03); }
+.credits { margin-top: 20px; font-size: 12px; line-height: 1.5; letter-spacing: -0.12px; color: var(--slate); }
 .gallery span { font-size: 14px; letter-spacing: -0.224px; color: var(--ink); font-weight: 500; }
 @media (max-width: 860px) { .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 dialog.lightbox { border: 0; padding: 0; background: transparent; max-width: min(1100px, 94vw); }
@@ -390,13 +391,14 @@ footer.band { padding-block: 40px 56px; background: var(--mist); }
         <div><h2 class="heading">Galería</h2></div>
       </div>
       <div class="cards gallery" id="gallery">
-        <button type="button" data-full="assets/img/galeria_estudiar.jpg"><img src="assets/img/galeria_estudiar.jpg" alt="Estudiante usando una laptop en su escritorio" width="1000" height="600" loading="lazy"><span>Estudiar con tu laptop</span></button>
-        <button type="button" data-full="assets/img/galeria_oficina.jpg"><img src="assets/img/galeria_oficina.jpg" alt="Persona trabajando en una PC de escritorio" width="1000" height="600" loading="lazy"><span>Trabajo en oficina</span></button>
-        <button type="button" data-full="assets/img/galeria_juego.jpg"><img src="assets/img/galeria_juego.jpg" alt="Persona con audífonos jugando en su PC" width="1000" height="600" loading="lazy"><span>Juego y creación</span></button>
-        <button type="button" data-full="assets/img/galeria_reparacion.jpg"><img src="assets/img/galeria_reparacion.jpg" alt="Técnico revisando el interior de una computadora" width="1000" height="600" loading="lazy"><span>Mantenimiento y reparación</span></button>
-        <button type="button" data-full="assets/img/galeria_asesoria.jpg"><img src="assets/img/galeria_asesoria.jpg" alt="Cliente recibiendo asesoría sobre una laptop en la tienda" width="1000" height="600" loading="lazy"><span>Asesoría en tienda</span></button>
-        <button type="button" data-full="assets/img/galeria_armado.jpg"><img src="assets/img/galeria_armado.jpg" alt="Persona armando una computadora con sus piezas" width="1000" height="600" loading="lazy"><span>Armado de PC a tu medida</span></button>
+        <button type="button" data-full="assets/img/foto_laptops.jpg"><img src="assets/img/foto_laptops.jpg" alt="Persona escribiendo en una laptop sobre un escritorio de madera" width="1000" height="600" loading="lazy"><span>Laptops</span></button>
+        <button type="button" data-full="assets/img/foto_pc.jpg"><img src="assets/img/foto_pc.jpg" alt="PC de escritorio con teclado iluminado y ventiladores de colores" width="1000" height="600" loading="lazy"><span>PC de escritorio</span></button>
+        <button type="button" data-full="assets/img/foto_accesorios.jpg"><img src="assets/img/foto_accesorios.jpg" alt="Teclado, mouse y lector de tarjetas sobre un escritorio" width="1000" height="600" loading="lazy"><span>Accesorios</span></button>
+        <button type="button" data-full="assets/img/foto_reparacion.jpg"><img src="assets/img/foto_reparacion.jpg" alt="Técnicos reparando la tarjeta de una laptop" width="1000" height="600" loading="lazy"><span>Reparación de equipos</span></button>
+        <button type="button" data-full="assets/img/foto_mantenimiento.jpg"><img src="assets/img/foto_mantenimiento.jpg" alt="Manos dando mantenimiento al interior de una computadora" width="1000" height="600" loading="lazy"><span>Mantenimiento y armado</span></button>
+        <button type="button" data-full="assets/img/foto_software.jpg"><img src="assets/img/foto_software.jpg" alt="Persona trabajando en una laptop con código en pantalla" width="1000" height="600" loading="lazy"><span>Instalación de programas</span></button>
       </div>
+      <p class="credits">Fotos de Wikimedia Commons. <a href="https://commons.wikimedia.org/wiki/File:Woman_working_on_her_laptop._External_hard_drive_plugged_into_the_laptop.jpg">Laptops</a>: Shixart1985 (CC BY 2.0) · <a href="https://commons.wikimedia.org/wiki/File:RGB_desktop_computer_setup_with_keyboard_and_monitor.jpg">PC de escritorio</a>: SankalpSasnur (CC0) · <a href="https://commons.wikimedia.org/wiki/File:Computer_keyboard,_smart_card_reader,_and_mouse_on_a_wooden_desk.jpg">Accesorios</a>: Shixart1985 (CC BY 2.0) · <a href="https://commons.wikimedia.org/wiki/File:Electronic_technician_at_work_3.jpg">Reparación de equipos</a>: 18bit (CC BY-SA 4.0) · <a href="https://commons.wikimedia.org/wiki/File:Replacing_hardware_160210-F-KR223-021.jpg">Mantenimiento y armado</a>: Airman 1st Class Jordyn Fetter (dominio público) · <a href="https://commons.wikimedia.org/wiki/File:Woman_working_on_a_laptop_in_the_kitchen._Top_view.jpg">Instalación de programas</a>: Shixart1985 (CC BY 2.0).</p>
     </div>
   </section>
 
